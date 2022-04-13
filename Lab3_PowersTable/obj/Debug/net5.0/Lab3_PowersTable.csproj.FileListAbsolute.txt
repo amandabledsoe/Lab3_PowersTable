@@ -1,0 +1,16 @@
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\bin\Debug\net5.0\Lab3_PowersTable.exe
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\bin\Debug\net5.0\Lab3_PowersTable.deps.json
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\bin\Debug\net5.0\Lab3_PowersTable.runtimeconfig.json
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\bin\Debug\net5.0\Lab3_PowersTable.runtimeconfig.dev.json
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\bin\Debug\net5.0\Lab3_PowersTable.dll
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\bin\Debug\net5.0\ref\Lab3_PowersTable.dll
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\bin\Debug\net5.0\Lab3_PowersTable.pdb
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\obj\Debug\net5.0\Lab3_PowersTable.csproj.AssemblyReference.cache
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\obj\Debug\net5.0\Lab3_PowersTable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\obj\Debug\net5.0\Lab3_PowersTable.AssemblyInfoInputs.cache
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\obj\Debug\net5.0\Lab3_PowersTable.AssemblyInfo.cs
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\obj\Debug\net5.0\Lab3_PowersTable.csproj.CoreCompileInputs.cache
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\obj\Debug\net5.0\Lab3_PowersTable.dll
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\obj\Debug\net5.0\ref\Lab3_PowersTable.dll
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\obj\Debug\net5.0\Lab3_PowersTable.pdb
+C:\Users\xando\source\repos\Lab3_PowersTable\Lab3_PowersTable\obj\Debug\net5.0\Lab3_PowersTable.genruntimeconfig.cache
