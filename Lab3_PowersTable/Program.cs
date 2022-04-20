@@ -25,44 +25,56 @@ namespace Lab3_PowersTable
                 isANumber = int.TryParse(userNumber, out int number);
                 if(isANumber)
                 {
-                    Console.WriteLine("--------------------------------");
-                    Console.WriteLine(String.Format("{0,3}{1,12}{2,12}", "Number", "Squared", "Cubed"));
-                    Console.WriteLine("--------------------------------");
-                    for(int i = 1; i <= number; i++)
+                    if(number > 0 && number <= 1290)
                     {
-                        Console.WriteLine(String.Format("{0,4}{1,12}{2,13}", $"{i}", $"{i*i}", $"{i*i*i}"));
-                    }
-                    Console.WriteLine("");
-
-                    runningAgain = true;
-                    while (runningAgain)
-                    {
-                        Console.WriteLine("Would you like to do another Powers Table Calculation?");
-                        Console.WriteLine("Enter 'y' or 'yes' to calculate again, or 'n' or 'no' to exit.");
-                        userAnswer = Console.ReadLine().ToLower();
+                        Console.WriteLine("--------------------------------");
+                        Console.WriteLine(String.Format("{0,3}{1,12}{2,13}", "Number", "Squared", "Cubed"));
+                        Console.WriteLine("--------------------------------");
+                        for (int i = 1; i <= number; i++)
+                        {
+                            Console.WriteLine(String.Format("{0,6}{1,12}{2,13}", $"{i}", $"{i * i}", $"{i * i * i}"));
+                        }
                         Console.WriteLine("");
-                        if (userAnswer == "n" || userAnswer == "no")
+
+                        runningAgain = true;
+                        while (runningAgain)
                         {
-                            runningAgain = false;
-                            runningProgram = false;
-                        }
-                        else if (userAnswer == "y" || userAnswer == "yes")
-                        {
-                            Console.Clear();
-                            runningAgain = false;
-                        }
-                        else
-                        {
+                            Console.WriteLine("Would you like to do another Powers Table Calculation?");
+                            Console.WriteLine("Enter 'y' or 'yes' to calculate again, or 'n' or 'no' to exit.");
+                            userAnswer = Console.ReadLine().ToLower();
                             Console.WriteLine("");
-                            Console.WriteLine("Sorry, I dont understand that response. Please try again.");
-                            Console.WriteLine("");
-                            runningAgain = true;
+                            if (userAnswer == "n" || userAnswer == "no")
+                            {
+                                runningAgain = false;
+                                runningProgram = false;
+                            }
+                            else if (userAnswer == "y" || userAnswer == "yes")
+                            {
+                                Console.Clear();
+                                runningAgain = false;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Sorry, I dont understand that response. Please try again.");
+                                Console.WriteLine("");
+                                runningAgain = true;
+                            }
                         }
+                    }
+                    else if(number > 1290)
+                    {
+                        Console.WriteLine("Sorry, that number is too large to have it's cubed value stored in an integer " +
+                            "variable! Please try again, making sure to enter a number less than 1291 this time.");
+                        Console.WriteLine("");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Sorry, this exercise requires numbers greater than zero. Please try again.");
+                        Console.WriteLine("");
                     }
                 }
                 else
                 {
-                    Console.WriteLine("");
                     Console.WriteLine("Sorry, that doesnt appear to be a whole number. Please try again.");
                     Console.WriteLine("");
                     runningProgram = true;
