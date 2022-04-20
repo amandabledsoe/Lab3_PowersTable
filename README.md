@@ -1,4 +1,4 @@
-This my solution for Lab 3 of the 2022 C# .NET After-Hours Boot Camp at Grand Circus. (In Progress)
+This my solution for Lab 3 of the 2022 C# .NET After-Hours Boot Camp at Grand Circus.
 
 ## EXPONENTS / Powers Table
 ### Objectives: 
